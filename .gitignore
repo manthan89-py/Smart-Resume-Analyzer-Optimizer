@@ -1,0 +1,4 @@
+venv_resume
+__pycache__
+Resumes/*
+model.py
