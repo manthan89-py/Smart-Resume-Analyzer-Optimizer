@@ -10,7 +10,7 @@ Transform your resume with AI-powered analysis and optimization. Get instant fee
 - **Job Description Matching**: Compare your resume against job requirements with precision scoring
 - **Interactive Resume Chat**: Ask questions about your resume and get instant answers
 - **Multi-Model Support**: Access to leading AI models including:
-  - OpenAI (GPT-3.5-turbo through GPT-4-mini)
+  - OpenAI (From GPT-3.5-turbo to GPT-4o-mini)
   - Mistral (medium and large)
   - Claude (3.5-sonnet, 3.5-haiku, 3 opus)
   - HuggingFace Inference API
@@ -29,14 +29,16 @@ docker run -p 7860:7860 manthan07/resume_analyzer:main-latest
 
 ### Alternative Docker Build
 ```bash
+git clone https://github.com/manthan89-py/Smart-Resume-Analyzer-Optimizer
+cd Smart-Resume-Analyzer-Optimizer
 docker build -t localmachine/resume_analyzer:main-latest .
 docker run -p 7860:7860 localmachine/resume_analyzer:main-latest
 ```
 
 ### Local Installation
 ```bash
-git clone <URL>
-cd <folder_name>
+git clone https://github.com/manthan89-py/Smart-Resume-Analyzer-Optimizer
+cd Smart-Resume-Analyzer-Optimizer
 sh start.sh  # Requires Python 3.12+
 ```
 
