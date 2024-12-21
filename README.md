@@ -119,7 +119,7 @@ Thanks for your interest in improving Smart Resume Analyzer & Optimizer! Here's 
 
 ### Guidelines
 
-- **Bug Reports**: Use GitHub's [issue tracker](github-issue-link)
+- **Bug Reports**: Use GitHub's [issue tracker](https://github.com/manthan89-py/Smart-Resume-Analyzer-Optimizer/issues)
   - Include steps to reproduce
   - Provide example code when possible
   - Describe expected vs actual behavior
